@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Snow Board" src="./assets/snowboard.png">
-    <HelloWorld/>
-  <Footer/>
+    <img alt="Snow Board" src="./assets/snowboard.png" />
+    <HelloWorld />
+    <Footer />
   </div>
 </template>
 
@@ -17,10 +17,16 @@ import Footer from './components/Footer.vue';
     Footer,
   },
 })
-export default class App extends Vue {} </script>
+export default class App extends Vue {}
+</script>
 
 <style lang="scss">
-html, body, pre, code, kbd, samp {
+html,
+body,
+pre,
+code,
+kbd,
+samp {
   font-family: "Nu Kinako Mochi";
   src: url("assets/fonts/NuKinakoMochi-Reg.otf") format("opentype");
 }
