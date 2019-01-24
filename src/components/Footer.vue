@@ -1,6 +1,7 @@
 <template>
   <footer>
-    <a href="https://github.com/nekottyo/t2-snowboard">View on GitHub</a>
+    <i class="nes-octocat animate"/>
+      <a href="https://github.com/nekottyo/t2-snowboard">View on GitHub</a>
   </footer>
 </template>
 
@@ -13,7 +14,4 @@ export default class Footer extends  Vue {
 </script>
 
 <style>
-footer {
-	height: 300px;
-	}
 </style>

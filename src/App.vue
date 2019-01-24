@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>スノボヤガーナ</h1>
     <img alt="Snow Board" src="./assets/snowboard.png" />
     <HelloWorld />
     <Footer />
@@ -27,13 +28,13 @@ pre,
 code,
 kbd,
 samp {
-  font-family: "Nu Kinako Mochi";
-  src: url("assets/fonts/NuKinakoMochi-Reg.otf") format("opentype");
+  font-family: "Misaki";
 }
 
 #app {
-  width: 80%;
-  margin: 0 auto;
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: auto 2rem;
 
   text-align: center;
   color: #2c3e50;
@@ -41,6 +42,8 @@ samp {
 }
 
 img {
-  width: 40%;
+  max-width: 180px;
+  width: 100%;
+  height: auto;
 }
 </style>
