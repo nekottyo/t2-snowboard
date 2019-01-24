@@ -2,6 +2,7 @@
   <div id="app">
     <h1>スノボヤガーナ</h1>
     <img alt="Snow Board" src="./assets/snowboard.png" />
+    みんなでスノーボードに行こうという企画
     <HelloWorld />
     <Footer />
   </div>
