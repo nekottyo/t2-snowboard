@@ -2,7 +2,7 @@
   <div id="app">
     <h1>スノボヤガーナ</h1>
     <img alt="Snow Board" src="./assets/snowboard.png" />
-    みんなでスノーボードに行こうという企画
+    みんなでスノーボードに行こうという企画です
     <HelloWorld />
     <Footer />
   </div>
@@ -39,6 +39,10 @@ samp {
 
   color: #2c3e50;
   margin-top: 60px;
+}
+
+h1 {
+  text-align: center;
 }
 
 img {
