@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="footer">
     <i class="nes-octocat animate"/>
       <a href="https://github.com/nekottyo/t2-snowboard">View on GitHub</a>
   </footer>
@@ -14,4 +14,7 @@ export default class Footer extends  Vue {
 </script>
 
 <style>
+.footer {
+  text-align: center;
+}
 </style>
