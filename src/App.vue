@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <h1>スノボヤガーナ</h1>
-    <img alt="Snow Board" src="./assets/snowboard.png" />
-    みんなでスノーボードに行こうという企画です
+    <div class="center">
+      <h1>スノボヤガーナ</h1>
+      <img alt="Snow Board" src="./assets/snowboard.png" />
+      <p>みんなでスノーボードに行こうという企画です</p>
+    </div>
     <HelloWorld />
     <Footer />
   </div>
@@ -41,7 +43,7 @@ samp {
   margin-top: 60px;
 }
 
-h1 {
+.center {
   text-align: center;
 }
 
