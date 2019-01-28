@@ -5,19 +5,19 @@
       <img alt="Snow Board" src="./assets/snowboard.png" />
       <p>みんなでスノーボードに行こうという企画です</p>
     </div>
-    <HelloWorld />
+    <Schedule />
     <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
+import Schedule from './components/Schedule.vue';
 import Footer from './components/Footer.vue';
 
 @Component({
   components: {
-    HelloWorld,
+    Schedule,
     Footer,
   },
 })
