@@ -5,6 +5,7 @@
       <img alt="Snow Board" src="./assets/snowboard.png" />
       <p>みんなでスノーボードに行こうという企画です</p>
     </div>
+    <Changelog />
     <Schedule />
     <Footer />
   </div>
@@ -14,11 +15,13 @@
 import { Component, Vue } from 'vue-property-decorator';
 import Schedule from './components/Schedule.vue';
 import Footer from './components/Footer.vue';
+import Changelog from './components/Changelog.vue';
 
 @Component({
   components: {
     Schedule,
     Footer,
+    Changelog,
   },
 })
 export default class App extends Vue {}
@@ -35,7 +38,7 @@ samp {
 }
 
 #app {
-  margin: 2rem auto;
+  margin: 1rem auto;
   max-width: 800px;
   padding: auto 2rem;
 

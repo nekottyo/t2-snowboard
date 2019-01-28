@@ -21,6 +21,10 @@
           <ul class="nes-list is-disc">
             <li>ウエア上下 2,400円</li>
             <li>ボードセット 4,000円</li>
+            以下当日に借りられるもの
+            <li>ゴーグル 1,000円</li>
+            <li>グローブ 1,000円(多分買い取り)</li>
+            <li>ニットキャップ 1,000円(多分買い取り)</li>
           </ul>
         </div>
       </div>
@@ -29,9 +33,9 @@
       <p class="title">予定</p>
       <div class="lists">
         <ul class="nes-list is-disc">
-          <li>06:30  東京駅集合</li>
-          <li>07:08  新幹線</li>
-          <li>09:00  到着</li>
+          <li>07:30  東京駅集合</li>
+          <li>08:08  新幹線</li>
+          <li>09:40  到着</li>
           <li>- あそぶ -</li>
           <li>??:??  帰る</li>
         </ul>
@@ -40,8 +44,14 @@
     <div class="nes-container with-title is-rounded">
       <p class="title">その他</p>
       <ul class="nes-list is-disc">
-        <li>温泉(1,200円?)ある</li>
-        <li>長い靴下あったほうがいい</li>
+        あるといいかも
+        <li>長い靴下</li>
+        <li>中に着るスウェット, ジャージ</li>
+        <li>ネックウォーマー or マフラー</li>
+        <li>イヤホン(LINE 通話すると楽しいらしい)</li>
+        <li>ゴーグル, グローブ, ニットキャップ(レンタル可)</li>
+        備考
+        <li>温泉(1,200円)</li>
       </ul>
     </div>
   </div>
@@ -75,6 +85,6 @@ a {
   color: #42b983;
 }
 .nes-container {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 </style>
